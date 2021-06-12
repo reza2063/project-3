@@ -1,0 +1,758 @@
+
+/*=================================
+comon css 
+===============================*/
+body{
+	font-family:sans-serif,arial;
+}
+
+
+*{
+	margin:0;
+	padding:0;
+
+}
+a{
+	text-decoration:none;
+	
+}
+ul{
+	list-style:none;
+}
+
+
+.wraper{
+	width:100%;
+}
+
+.sub-wrap{
+	width:100%;
+	margin:0 auto;
+	height:auto;
+	overflow:hidden;
+}
+
+/*=================================
+section-one's css(desing)
+===============================*/
+
+
+#section-one {
+    overflow: hidden;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    background: white;
+}
+
+.header .header_left{
+    width: 20%;
+    float: left;
+}
+
+
+.header_left img{
+    width: 30%;
+    margin: 9px auto;
+    display: block;
+}
+
+
+.header .header_right{
+	  width: 80%;
+      overflow: hidden;
+}
+
+.header .header_right .nav_bar{
+     display: flex;
+     float: right;
+	 padding:2%;
+	 position:relative;
+}
+
+
+.header .header_right .nav_bar ul{
+    display: flex;
+    padding: 3% 0;
+    float: right;
+}
+
+
+.header .header_right .nav_bar ul li{
+	
+}
+
+
+.header .header_right .nav_bar ul li a{
+    padding: .9em;
+    text-transform: uppercase;
+    font-size: .9em;
+    font-weight: bold;
+    color:#54514E;
+	transition:0.4s;
+}
+
+
+.header .header_right .nav_bar ul li:hover a{
+	    color: black;
+		text-shadow: 0px 0px 20px #0b4848;
+}
+
+.header .header_right .nav_bar .search_input{
+    border: none;
+    background: #C6C0BD;
+    border-radius: 20px;
+
+}
+
+
+.header .header_right .nav_bar img{
+    position: absolute;
+    top: 31%;
+    right: 30px;
+
+}
+
+
+
+
+
+
+/*=================================
+section-two  css(desing)
+===============================*/
+
+#section-two{
+	
+}
+
+.info_area{
+    width: 100%;
+    position: relative;
+}
+
+.info_area img{
+    width: 100%;	
+}
+
+.info_area .info_details{
+	position: absolute;
+    top: 0;
+    width: 36%;
+    padding: 20% 8%;
+
+}
+
+.info_area .info_details h2{
+	font-size: 3em;
+    text-transform: uppercase;
+    font-family: arial black;
+    line-height: 52px;
+    color: #EDB47C;
+}
+
+.info_area .info_details h5{
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 2% 0px;
+    color: #686562;
+}
+
+.info_area .info_details .info_btn{
+    background: #FEFEFD;
+    border: none;
+    padding: 2%;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: arial black;
+    width: 38%;
+    color: #686562;
+    margin-top: 8%;
+    cursor: pointer;
+	transition:0.3s;
+}
+
+.info_area .info_details .info_btn:hover{
+    background:#D2D2CD;
+	transform:skewY(2deg);
+}
+
+.info_area .info_details p{
+    text-align: justify;
+    color: #9C9995;
+    padding-top: 3%;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/*=================================
+section-three  css(desing)
+===============================*/
+
+#section-three{
+	
+}
+
+.more_travel_info_area{
+    width: 100%;
+    overflow: hidden;
+	margin-bottom: 6%;
+}
+
+.more_travel_info_area .travel_info{
+	width: 85%;
+    margin: 0 auto;
+	
+}
+
+.more_travel_info_area .travel_info 
+.heading_write{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.more_travel_info_area .travel_info .heading_write h2{
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #F6A44E;
+    font-family: arial black;
+    font-weight: 600;
+    padding: 2% 0;
+}
+
+
+.more_travel_info_area .travel_info .heading_write p{
+    padding-bottom: 10%;
+    font-size: 18px;
+    font-weight: 100;
+    color: #938983;
+}
+
+
+.more_travel_info_area .travel_info
+.beuty_place{
+    width: 100%;
+    overflow: hidden;
+}
+
+.more_travel_info_area .travel_info
+.beuty_place .single_box_area{	
+    width:30%;
+    float: left;
+    margin-right: 5%;
+    overflow: hidden;
+}
+
+.more_travel_info_area .travel_info
+.beuty_place .single_box_area:last-child{	
+    margin-right:0%;
+}
+
+
+.more_travel_info_area .travel_info
+.beuty_place .single_box_area .img_area{
+	width:100%;
+	
+}
+
+.more_travel_info_area .travel_info
+.beuty_place .single_box_area .img_area img{
+	width:100%;
+	transition:0.3s;
+	
+}
+
+.more_travel_info_area .travel_info
+.beuty_place .single_box_area 
+.img_area:hover img{
+	transform:scale(1.1);
+	
+}
+
+.more_travel_info_area .travel_info
+.beuty_place .single_box_area .img_bottom_area{
+    background: #837870;
+    color: white;
+    margin-top: -4px;
+    padding: 10% 8px;
+}
+
+.more_travel_info_area .travel_info
+.beuty_place .single_box_area .img_bottom_area h2{
+	padding-bottom: 3%;
+    font-size: 22px;
+    font-family: arial;
+    font-weight: 600;
+
+
+}
+
+.more_travel_info_area .travel_info
+.beuty_place .single_box_area .img_bottom_area p{
+    color: #ffffffe3;
+    font-size: medium;
+    font-weight: 400;
+    padding-bottom: 8%;
+    font-family: arial;
+}
+
+
+.more_travel_info_area .travel_info .show_btn{
+    background: #837870;
+    border: none;
+    padding: 1.5%;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-size: 13px;
+    font-family: arial black;
+    width: 20%;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    margin: 2% auto;
+    display: grid;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.more_travel_info_area .travel_info .show_btn:hover{
+	background:#807e7d;
+	transform:scale(0.9);
+}
+
+
+
+
+
+
+
+/*=================================
+section-four css(desing)
+===============================*/
+#section-four{
+	
+}
+
+.info_discount_area{
+	width:100%;
+	overflow:hidden;
+}
+
+.info_discount_area .single_img_info_area{
+    width: 50%;
+    float: left;
+    height:42em;
+    overflow: hidden;
+    background: #837870;
+}
+
+
+.info_discount_area .single_img_info_area .friends_img{
+	width:100%;
+    height: 100%;
+}
+
+
+.info_discount_area .single_img_info_area .friends_img img{
+	width:100%;
+    height: 100%;
+}
+
+.info_info{
+	width: 66%;
+     padding:15% 5%;
+}
+
+.info_discount_area .single_img_info_area .info_info h2{
+    color: #F0ECE9;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.info_discount_area .single_img_info_area .info_info p{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6% 0;
+    color: #eae3e3;
+    text-align: justify;
+}
+
+
+.info_discount_area 
+.single_img_info_area 
+.info_info .more_btn2{
+	background: #F6A44E;
+    border: none;
+    padding:2%;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-size: 13px;
+    font-family: arial black;
+    width:45%;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    display: grid;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+
+}
+.info_discount_area 
+.single_img_info_area 
+.info_info .more_btn2:hover{
+	background:#DFAA72;
+	transform:scale(1.1);
+}
+
+.info_discount_area .single_img_info_areaBG{
+	background: #EDB47C;
+}
+
+.info_discount_area .single_img_info_area2 h2{
+    font-size: 2.7em !important;
+}
+
+
+/*=================================
+section-five  css(desing)
+===============================*/
+
+#section-five{
+	overflow:hidden;
+}
+
+.mountain_area{
+   width: 100%;
+   position: relative;
+		
+}
+
+.mountain_area img{
+    width: 100%;
+    height: auto;
+		
+}
+
+.mountain_area .mountain_content{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    width: 60%;
+    text-align: center;
+}
+
+.mountain_area .mountain_content h2{
+    color: #EAE8E7;
+    padding: 3% 0;
+    font-size: 2.4em;
+    word-spacing: -2px;
+}
+
+.mountain_area .mountain_content p{
+    color: #CCC9C8;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+/*=================================
+section-six  css(desing)
+===============================*/
+
+#section-six{
+	
+}
+
+.explore_bg{
+	width:100%;
+	position:relative;
+}
+
+.explore_bg img{
+	width:100%;
+	height:auto;
+}
+
+.explore_bg .explore_heading{
+    position: absolute;
+    top: 43%;
+    right: 15%;
+    font-size: 2em;
+    line-height: 58px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: arial black;
+}
+
+.explore_bg .explore_heading h2{
+	color:#EDB47C;
+}
+
+.explore_bg .explore_heading h2 span{
+	color:#6D6A67;
+}
+
+/*=================================
+section-seven  css(desing)
+===============================*/
+
+#section-seven{
+	
+}
+
+.single_area{
+    width: 100%;
+    overflow: hidden;
+	margin-bottom:5%;
+}
+
+.single_area .single_area_middle{
+    width: 75%;
+    margin: 0 auto;
+	overflow:hidden;
+}
+
+.single_area .single_area_middle 
+.single_info_content{
+    width:30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.single_area .single_area_middle .single_info_content:last-child{
+	margin-right:0%;
+}
+
+.single_area .single_area_middle 
+.single_info_content h2{
+    color: #EEB883;
+    text-transform: capitalize;
+    font-size: 1.6em;
+    font-weight: 600;
+    padding: 4% 0;
+}
+
+.single_area .single_area_middle 
+.single_info_content p{
+	    color: #464848;
+    font-size: 1em;
+    text-align: justify;
+    font-weight: normal;
+}
+
+/*=================================
+section-eight  css(desing)
+===============================*/
+
+#section-eight{
+	
+}
+
+.lorem_info{
+    width:40%;
+    margin: 0 auto;
+	text-align:center;
+}
+
+.lorem_info p{
+    color: #3D3D3D;
+    padding: 4% 0;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.lorem_info h6{
+    color: black;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+
+/*=================================
+section-nine  css(desing)
+===============================*/
+
+#section-nine{
+	
+}
+
+.title_bg{
+	width:100%;
+	position:relative;
+}
+
+
+.title_bg img{
+	width:100%;
+	height:500px;
+}
+
+
+.title_bg .title_info{
+     position: absolute;
+    top: 27%;
+    left: 20%;
+    width: 60%;
+}
+
+.title_bg  .title_info h2{
+    color: #FFF;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: bold;
+    font-family: arial black;
+    padding: 2% 0;
+}
+
+.title_bg  .title_info p{
+    color: #A08164D6;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+
+.title_bg .title_info input{
+    border: none;
+    padding: 1.7%;
+    border-radius: 25px;
+    margin-left: 13%;
+    width: 50%;
+    color: #918787;
+    font-size: 1em;
+}
+
+.title_bg  .title_info 
+.subscribe_btn{
+     background: #54514E;
+    border: none;
+    padding:2%;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-size: 13px;
+    font-family: arial black;
+    width: 25%;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    display: grid;
+    position: absolute;
+    top: 77%;
+    right: 13%;
+}
+
+.title_bg  .title_info 
+.subscribe_btn:hover{
+    background:#847F7A;
+
+}
+
+
+
+
+
+
+
+/*=================================
+section-ten  css(desing)
+===============================*/
+
+#section-ten{
+	
+}
+
+.nav_info{
+	width:100%;
+	background: #837870;
+}
+
+.nav_info .nav_middle{
+    width:80%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 7% 0;
+}
+
+
+.nav_info .nav_middle .social_info{
+    width:33%;
+    float: left;
+    margin-right: 5%;
+}
+
+.nav_info .nav_middle .social_info h2{
+    color: white;
+    text-transform: capitalize;
+    padding: 5% 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav_info .nav_middle .social_info p{
+    color: #E6E5E3;
+    padding-bottom: 8%;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.nav_info .nav_middle .social_info 
+.social_area{
+	
+}
+
+
+.nav_info .nav_middle .single_nav_area{
+    width: 20%;
+    float: left;
+	margin-right: 6px;
+}
+
+
+.nav_info .nav_middle .single_nav_area h2{
+    color: white;
+    text-transform: capitalize;
+    padding: 5% 0;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+
+.nav_info .nav_middle .single_nav_area ul{
+	
+}
+
+
+.nav_info .nav_middle .single_nav_area ul li{
+    margin: 5% 0;
+    text-transform: capitalize;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.nav_info .nav_middle .single_nav_area ul li a{
+    color: #E6E5E3;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.nav_info .nav_middle .single_nav_area ul li:hover{
+	background:#686868;
+}
+
+
+
+

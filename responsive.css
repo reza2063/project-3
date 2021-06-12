@@ -1,0 +1,702 @@
+
+/*==============================
+Responsive start for project-3
+======================================*/
+
+
+
+
+/*===============================
+ X-Small devices (portrait phones, less than 576px)
+=======================================*/
+
+@media (max-width: 575.98px) { 
+
+.header_left img {
+    width:70%;
+    padding: 10%;
+    margin:0;
+}
+
+
+.header .header_right img {
+    width: 10%;
+    height: auto;
+    display: block;
+    float: right;
+    margin:5% 2%;
+    cursor: pointer;
+}
+
+
+.header .header_right .nav_bar ul {
+    height:50vh;
+    width: 100%;
+    background: #2c3e50;
+    position: fixed;
+    top:80px;
+    left: 0;
+    z-index: 9999;
+    text-align: center;
+    overflow: hidden;
+	display:block;
+}
+
+.header .header_right .nav_bar ul li a {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    transition: 0.4s;
+    display: block;
+    padding: 17px 0;
+}
+
+
+.header .header_right .nav_bar ul li:hover a {
+    color: #4f5a64;
+
+}
+
+
+.header .header_right .nav_bar ul li{
+	width:50%;
+    margin:0 auto;
+}
+
+
+
+
+.header .header_right .nav_bar .search_input , #navbar , .header .header_right .nav_bar img{
+	display:none;
+}
+
+
+.info_area .info_details {
+    position: sticky;
+    top: 0;
+    width: 70%;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 2px solid #929d9d99;
+    padding-bottom: 3%;
+}
+
+.info_area .info_details h2{
+	font-size:1.8em;
+	line-height:35px;
+}
+
+.info_area .info_details .info_btn{
+	width:60%;
+	margin-top:4%;
+	background: #ACACA5;
+}
+
+.more_travel_info_area .travel_info{
+	width:90%;
+	
+}
+
+.more_travel_info_area .travel_info .heading_write{
+	width:90%;
+}
+
+.more_travel_info_area .travel_info .beuty_place .single_box_area {
+    width:80%;
+    float: none;
+    margin: 5% auto;
+}
+
+.more_travel_info_area .travel_info .beuty_place .single_box_area:last-child{
+    margin: 5% auto;	
+}
+
+
+.more_travel_info_area .travel_info .show_btn{
+    padding: 3%;
+    width: 70%;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+.info_discount_area .single_img_info_area {
+    height: 20em;
+
+}
+
+
+.info_info {
+    width: 95%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.info_discount_area .single_img_info_area .info_info h2 {
+    font-size: 1.3em;
+    padding: 5% 0;
+}
+
+.info_discount_area .single_img_info_area .info_info p {
+    font-size: .6em;
+    padding: 5% 0;
+
+}
+
+.info_discount_area .single_img_info_area .info_info .more_btn2 {
+    padding: 5%;
+    width: 90%;
+    letter-spacing: 0;
+    word-spacing: 0;
+    margin: 10px auto;
+}
+
+.mountain_area img{
+	display:none;
+}
+
+.mountain_area .mountain_content {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.mountain_area .mountain_content h2{
+	color: #7F7A77;
+	font-size: 2em;
+}
+
+.mountain_area .mountain_content p {
+    color: #979392;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.explore_bg .explore_heading {
+    position: absolute;
+    top:4.7em;
+    right: 5px;
+    font-size: .5em;
+    line-height:15px;
+}
+
+
+.single_area .single_area_middle {
+    width: 100%;
+    margin: 0;
+}
+
+.single_area .single_area_middle .single_info_content{
+	width:45%;
+}
+
+.single_area .single_area_middle .single_info_content:last-child{
+	width:60%;
+    margin-left: 20%;
+}
+
+.single_area .single_area_middle .single_info_content h2{
+	text-align:center;
+	font-size:1em;
+	padding:0%;
+	padding-top: 6%;
+
+}
+
+.single_area .single_area_middle .single_info_content p{
+	text-align:center;
+	font-size:0.8em;
+}
+
+.lorem_info {
+    width: 80%;
+    border-top: 2px solid #02020236;
+}
+
+.title_bg .title_info {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+}
+
+.title_bg .title_info p{
+	margin:0 15px;
+}
+
+.title_bg .title_info input {
+    width: 60%;
+    margin: 10px auto;
+    display: block;
+}
+
+
+.title_bg .title_info .subscribe_btn{
+	position: sticky;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+	width:45%;
+}
+
+.nav_info .nav_middle{
+	width:100%;
+}
+
+.nav_info .nav_middle .social_info{
+	display:none;
+}
+
+.nav_info .nav_middle .single_nav_area {
+    width: 29%;
+    float: left;
+    margin-right: 6px;
+    margin-left: 5px;
+}
+
+.nav_info .nav_middle .single_nav_area:last-child{
+    margin-right:0px;
+}
+
+.nav_info .nav_middle .single_nav_area h2{
+	font-size:1em;
+}
+
+.nav_info .nav_middle .single_nav_area ul li a{
+	font-size:0.8em;
+}
+
+
+
+}
+
+
+/*=================================
+Small devices (landscape phones, less than 768px)
+=======================================*/
+
+@media ( min-width: 575.99px ) and (max-width: 767.98px ){
+
+
+.header_left img {
+    width:70%;
+    padding: 10%;
+    margin:0;
+}
+
+
+
+.header .header_right img {
+    width: 10%;
+    height: auto;
+    display: block;
+    float: right;
+    margin:4% 2%;
+    cursor: pointer;
+}
+
+
+.header .header_right .nav_bar ul {
+    height: 50vh;
+    width: 100%;
+    background: #2c3e50;
+    position: fixed;
+    top:125px;
+    left: 0;
+    z-index: 9999;
+    text-align: center;
+    overflow: hidden;
+    display: block;
+}
+
+.header .header_right .nav_bar ul li {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.header .header_right .nav_bar ul li a {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    transition: 0.4s;
+    display: block;
+    padding: 17px 0;
+}
+
+
+#navbar , .search_input , .nav_bar img{
+	display:none;
+}
+
+
+.info_area .info_details {
+    width: 40%;
+    padding:8% 5%;
+}
+
+.info_area .info_details h2 {
+    font-size: 2em;
+    line-height: 40px;
+}
+
+.info_area .info_details .info_btn{
+	margin-top:5%;
+}
+
+.info_area .info_details .info_btn{
+	width:60%;
+	padding:3%;
+}
+
+.more_travel_info_area .travel_info .show_btn{
+	width:35%;
+}
+
+.info_info {
+    width: 80%;
+    padding: 20% 10%;
+}
+
+.info_discount_area .single_img_info_area{
+	height:24em;
+}
+
+.info_discount_area .single_img_info_area .info_info h2{
+	font-size:2em;
+}
+
+.info_discount_area .single_img_info_area .info_info .more_btn2{
+	padding:4%;
+	width:70%;
+}
+
+
+.mountain_area .mountain_content {
+    top: 12%;
+    left: 14%;
+    width: 70%;
+}
+
+.explore_bg .explore_heading {
+    top: 38%;
+    right: 1%;
+    font-size: 1.5em;
+    line-height: 42px;
+}
+
+.single_area .single_area_middle{
+	width:90%;
+}
+
+.single_area .single_area_middle .single_info_content h2{
+	text-align:center;
+}
+
+.single_area .single_area_middle .single_info_content p{
+	text-align:center;
+}
+
+
+.lorem_info{
+	width:70%;
+}
+
+.title_bg .title_info{
+	width:70%;	
+}
+
+.title_bg .title_info .subscribe_btn{
+	width:30%;
+    top: 79%;
+    right: 10%;
+}
+
+.nav_info .nav_middle{
+	width:90%;
+}
+
+.nav_info .nav_middle .social_info{
+	width:30%;
+}
+
+.nav_info .nav_middle .social_info p{
+	text-align:left;
+	font-size:0.7em;	
+}
+
+
+
+}
+
+
+/*=================================
+Medium devices (tablets, less than 992px)
+=======================================*/
+
+
+@media ( min-width: 767.99px) and (max-width: 991.98px ){
+
+
+.header_left img {
+    width:50%;
+    padding:1% 10%;
+    margin:0;
+}
+
+
+.header .header_right img {
+    width:7.5%;
+    height: auto;
+    display: block;
+    float: right;
+    margin: 3% 2%;
+    cursor: pointer;
+}
+
+
+.header .header_right .nav_bar ul {
+    height: 50vh;
+    width: 100%;
+    background: #2c3e50;
+    position: fixed;
+    top:130px;
+    left: 0;
+    z-index: 9999;
+    text-align: center;
+    overflow: hidden;
+    display: block;
+}
+
+.header .header_right .nav_bar ul li {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.header .header_right .nav_bar ul li a {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    transition: 0.4s;
+    display: block;
+    padding: 17px 0;
+}
+
+
+
+
+#navbar , .search_input , .nav_bar img{
+	display:none;
+}
+
+.info_area .info_details {
+    width: 40%;
+    padding:16% 5%;
+}
+
+.info_area .info_details h2 {
+    font-size: 2em;
+    line-height: 40px;
+}
+
+.info_area .info_details p{
+	padding-top:5%;
+	text-align:left;
+}
+
+
+.info_area .info_details .info_btn{
+	margin-top:5%;
+}
+
+.info_area .info_details .info_btn{
+	width:60%;
+	padding:3%;
+}
+
+.more_travel_info_area .travel_info{
+	width:90%;
+}
+
+.more_travel_info_area .travel_info .show_btn{
+	width:35%;
+}
+
+.info_info {
+    width: 80%;
+    padding: 20% 10%;
+}
+
+.info_discount_area .single_img_info_area{
+	height:29em;
+}
+
+.info_discount_area .single_img_info_area .info_info h2{
+	font-size:2em;
+}
+
+.info_discount_area .single_img_info_area .info_info .more_btn2{
+	padding:%;
+	width:45%;
+}
+
+
+.mountain_area .mountain_content {
+    top:20%;
+    left: 14%;
+    width: 70%;
+}
+
+.explore_bg .explore_heading {
+    top:42%;
+    right:11%;
+    font-size: 1.5em;
+    line-height: 42px;
+}
+
+.single_area .single_area_middle{
+	width:90%;
+}
+
+.single_area .single_area_middle .single_info_content h2{
+	text-align:center;
+}
+
+.single_area .single_area_middle .single_info_content p{
+	text-align:center;
+}
+
+
+.lorem_info{
+	width:70%;
+}
+
+.title_bg .title_info{
+	width:70%;	
+}
+
+.title_bg .title_info input{
+	float:left;
+	margin-left:10%;
+}
+
+.title_bg .title_info .subscribe_btn {
+    position: sticky;
+    top: 0;
+    right: 0;
+}
+
+.nav_info .nav_middle{
+	width:90%;
+}
+
+.nav_info .nav_middle .social_info{
+	width:30%;
+}
+
+.nav_info .nav_middle .social_info p{
+	text-align:left;
+}
+
+
+}
+
+
+/*=================================
+Large devices (desktops, less than 1200px)
+=======================================*/
+
+@media ( min-width: 991.99px) and (max-width: 1199.98px) { 
+
+.menu_img {
+    display: none;
+}
+
+
+.info_discount_area .single_img_info_area{
+	height:37em;
+}
+
+.info_info {
+    width: 80%;
+    padding: 25% 5%;
+}
+
+
+.explore_bg .explore_heading {
+    top: 40%;
+    right: 12%;
+    font-size: 1.8em;
+    line-height: 52px;
+}
+
+.title_bg .title_info {
+    top: 27%;
+    left: 24%;
+    width: 50%;
+}
+
+.title_bg .title_info .subscribe_btn{
+	top:78%;
+}
+
+.nav_info .nav_middle{
+	width:90%;
+}
+
+.nav_info .nav_middle .social_info{
+	width:30%;
+}
+
+.nav_info .nav_middle .social_info p {
+    text-align: left;
+}
+
+
+
+}
+
+
+/*=================================
+X-Large devices (large desktops, less than 1400px)
+=======================================*/
+
+@media ( min-width:  1199.99px)and (max-width: 1399.98px) { 
+
+.menu_img {
+    display: none;
+}
+
+.title_bg .title_info .subscribe_btn{
+	top:76%;
+}	
+	
+}
+
+
+/*=================================
+  XX-Large devices (larger desktops)
+No media query since the xxl breakpoint has no upper bound on its width
+=======================================*/
+
+/*pothom a je coding korechi tai hobe
+ notun kore kichu likhte hobe na akhane
+*/
+
+@media ( min-width:  1200px){
+    
+
+.menu_img {
+    display: none;
+}
+
+
+
+}
+
